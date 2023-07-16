@@ -9,6 +9,7 @@ namespace DataLayer.Models
 {
      public class Player
     {
+        //ovo je ime igraca
         [JsonProperty("name")]
         public string Name { get; set; }
 

@@ -32,8 +32,8 @@ namespace WindowsForms
             {
                 var result=File.ReadAllLines(path);
                 this.Close();
-                FavouriteNationalTeam fnt = new FavouriteNationalTeam(result[0], result[1]);
-                fnt.ShowDialog();
+                FavouriteNationalTeam fav = new FavouriteNationalTeam(result[0], result[1]);
+                fav.ShowDialog();
                 
             }
            
