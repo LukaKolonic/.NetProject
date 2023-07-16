@@ -9,6 +9,7 @@ namespace WindowsForms.Models
 {
     public class Team
     {
+        //ovo je id team-a
         [JsonProperty("id")]
         public int Id { get; set; }
 
@@ -18,9 +19,11 @@ namespace WindowsForms.Models
         [JsonProperty("alternate_name")]
         public object AlternateName { get; set; }
 
+        //fifa code
         [JsonProperty("fifa_code")]
         public string FifaCode { get; set; }
 
+        //bla bla
         [JsonProperty("group_id")]
         public int GroupId { get; set; }
 

@@ -9,6 +9,7 @@ namespace DataLayer.Models
 {
    public class Country
     {
+        //ovo je ime drzave
         [JsonProperty("country")]
         public string CountryName { get; set; }
 
