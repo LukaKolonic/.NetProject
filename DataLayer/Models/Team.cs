@@ -19,6 +19,7 @@ namespace WindowsForms.Models
         [JsonProperty("alternate_name")]
         public object AlternateName { get; set; }
 
+        //fifa code
         [JsonProperty("fifa_code")]
         public string FifaCode { get; set; }
 
